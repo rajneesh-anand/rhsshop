@@ -1,0 +1,10 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "raj2neo",
+  "database": "onlineshop",
+  "entities": ["src/entity/*.ts"],
+  "migrations": ["src/migrations/*.ts"]
+}
